@@ -800,6 +800,8 @@
     L.selected = null;
     L.revealed = false;
     L.lastOk = false;
+    L._mc = null;
+    L._mcFor = null;
     if (!pending) return;
     var id = pending.id;
     var rest = L.queue.slice(1);
@@ -832,9 +834,12 @@
       return '<div class="question-card"><p class="lead">That card is gone.</p>' +
         '<button class="btn primary" data-act="learn-next">Continue</button></div>';
     }
-    var distractors = learnDistractors(entry, L);
-    var options = shuffle([{ text: entry.term, ok: true }].concat(distractors.map(function (t) { return { text: t, ok: false }; })));
-    L._mc = options;
+    if (!L._mc || L._mcFor !== entry.id) {
+      var distractors = learnDistractors(entry, L);
+      L._mc = shuffle([{ text: entry.term, ok: true }].concat(distractors.map(function (t) { return { text: t, ok: false }; })));
+      L._mcFor = entry.id;
+    }
+    var options = L._mc;
     var stem = entry.concept || fundamentalsStem(entry) || briefWhy(entry.why) || entry.q;
     var html = '<div class="question-card"><div class="kicker">Fundamentals</div>' +
       '<p class="question-text">' + esc(stem) + "</p>" +
