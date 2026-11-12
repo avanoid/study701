@@ -1,0 +1,8 @@
+{
+  "name": "study701",
+  "private": true,
+  "description": "CompTIA Security+ SY0-701 quiz practice",
+  "scripts": {
+    "start": "node serve.js"
+  }
+}
