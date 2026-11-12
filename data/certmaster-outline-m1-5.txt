@@ -1,0 +1,116 @@
+split parts 889
+pages parsed 444 max 444
+p3: Course Introduction
+p5: Module 1 | Summarize Fundamental Security Concepts | Module Overview | Module Summary
+p6: Security Concepts | Lesson Overview | Objectives Covered | Information Security
+p7: Cybersecurity Framework | Core cybersecurity tasks | Gap Analysis
+p8: Gap Analysis of Controls, Function and Category
+p9: Access Control
+p12: Security Controls | Lesson Overview | Objectives Covered | Security Control Categories
+p13: Categories of security controls | Security Control Functional Types
+p14: Functional types of security controls | Information Security Roles and Responsibilities
+p15: Information Security Competencies | Information Security Business Units
+p16: DevSecOps | Incident Response
+p17: Summary | Guidelines for Summarizing Security Concepts and Security Controls
+p18: Module 2 | Compare Threat Types | Module Overview | Module Summary
+p19: Threat Actors | Lesson Overview | Objectives Covered | Vulnerability, Threat, and Risk
+p20: Attributes of Threat Actors | Internal/External | Level of Sophistication/Capability | Resources/Funding
+p21: Motivations of Threat Actors | Chaotic Motivations
+p22: Political Motivations | Hackers and Hacktivists | Hackers | Unskilled Attackers
+p23: Nation-State Actors | Organized Crime and Competitors
+p24: Internal Threat Actors
+p25: Attack Surfaces | Lesson Overview | Objectives Covered | Attack Surface and Threat Vectors
+p26: Assessing the Attack Surface
+p27: Vulnerable Software Vectors | Unsupported Systems and Applications | Client-Based versus Agentless
+p29: Message-Based Vectors
+p30: Supply Chain Attack Surface | For most businesses, use
+p31: Social Engineering | Lesson Overview | Objectives Covered | Human Vectors
+p32: Impersonation and Pretexting | Phishing and Pharming
+p34: Typosquatting | Business Email Compromise
+p35: Summary | Guidelines for Comparing Threat Actors and Attack Surfaces
+p36: Module 3 | Explain Cryptographic Solutions | Module Overview | Module Summary
+p37: Cryptographic Algorithms | Lesson Overview | Objectives Covered | Cryptographic Concepts
+p38: Symmetric Encryption | Substitution and Transposition Algorithms | H L O O L | E L W R D | Symmetric Algorithms
+p39: Symmetric encryption operation and weaknesses | Key Length
+p40: Asymmetric Encryption
+p41: Asymmetric encryption | Hashing
+p42: Confirming a file download using cryptographic hashes
+p43: Computing an SHA value from a file | Digital Signatures
+p44: Message authentication and integrity using digital signatures
+p45: Public Key Infrastructure | Lesson Overview | Objectives Covered | Certificate Authorities
+p46: Digital Certificates
+p48: Root of Trust | Single CA | Third-party CAs
+p49: Self-signed Certificates
+p50: Certificate Signing Requests
+p51: Subject Name Attributes
+p53: Certificate Revocation
+p55: Key Management | Cryptoprocessors and Secure Enclaves
+p56: Pseudo RNG working during key generation using GPG | Trusted Platform Module
+p57: Hardware Security Module | Secure Enclave
+p58: Key Escrow
+p59: Cryptographic Solutions | Lesson Overview | Objectives Covered | Encryption Supporting Confidentiality
+p60: Disk and File Encryption | Full Disk and Partition Encryption
+p61: Database Encryption | Database-Level Encryption | Record-Level Encryption
+p63: Perfect Forward Secrecy
+p64: Salting and Key Stretching
+p65: Salting | Key Stretching | Blockchain
+p66: Obfuscation | Summary
+p68: Module 4 | Implement Identity and Access Management | Module Overview | Module Summary
+p69: Authentication | Lesson Overview | Objectives Covered | Authentication Design
+p70: Windows Sign-in Screen | Password Concepts
+p71: Password Managers
+p72: Multifactor Authentication | Something You Have Factor
+p73: Something You Are Factor | Somewhere You Are Factor | Biometric Authentication | The template is a mathematical
+p76: Caption | Hard Authentication Tokens
+p77: Key Fob Token Generator | Soft Authentication Tokens
+p78: Using an Authenticator App to Sign in to a Site | Passwordless Authentication
+p80: Authorization | Lesson Overview | Objectives Covered | Discretionary and Mandatory Access Control | Discretionary Access Control | Mandatory Access Control
+p81: Role- and Attribute-Based Access Control | Role-Based Access Control
+p82: Using Security Groups to Assign Privileges | Attribute-Based Access Control
+p83: Rule-Based Access Control | Least Privilege Permission Assignments
+p84: Determining Effective Permissions for a Shared Folder | User Account Provisioning
+p85: Account Attributes and Access Policies
+p86: Account Restrictions | Location-Based Policies | Time-Based Restrictions
+p87: Privileged Access Management
+p88: Identity Management | Lesson Overview | Objectives Covered | Local, Network, and Remote Authentication | Windows Authentication | Windows authentication involves a complex architecture of
+p89: Linux Authentication | Directory Services | Browsing objects in an Active Directory LDAP schema
+p90: Single Sign-on Authentication | Kerberos Authentication Service
+p91: Single Sign-on Authorization
+p92: Kerberos Ticket Granting Service | Federation
+p94: Federated Identity Management Overview | Security Assertion Markup Language
+p95: Open Authorization
+p96: Summary | Guidelines for Implementing Identity and Access Management
+p97: Module 5 | Secure Enterprise Network Architecture | Module Overview | Module Summary
+p98: Enterprise Network Architecture | Lesson Overview | Objectives Covered | Architecture and Infrastructure Concepts
+p99: Network Infrastructure
+p100: Switching Infrastructure Considerations
+p101: Physical Topology of Components in a Structured Cabling System
+p102: Network with a Basic Hierarchical Structure | Routing Infrastructure Considerations | Internet Protocol
+p103: Hierarchy of a Network Routing Infrastructure | Virtual LANs
+p104: Configured VLANs Segments Hosts on the Same Switch | Security Zones
+p106: Network Security Zones and Access Rules | Attack Surface
+p107: Port Security | Access to the physical switch ports and switch hardware should
+p109: Physical Isolation | Architecture Considerations
+p110: On-premises
+p111: Network Security Appliances | Lesson Overview | Objectives Covered | Device Placement
+p112: Network Placement of Security Controls | Device Attributes | Active versus Passive
+p113: Inline Devices and Monitor Methods | Fail-Open versus Fail-Closed
+p114: Firewalls | Packet Filtering | Firewall Device Placement and Attributes
+p115: Layer 4 and Layer 7 Firewalls
+p116: Layer 4 Firewall
+p117: Layer 7 Firewall | Proxy Servers
+p118: Forward Proxy Servers
+p119: Reverse Proxy Servers | Intrusion Detection Systems | Sensors
+p120: Intrusion Detection Systems | Intrusion Prevention Systems
+p121: Next-Generation Firewalls and Unified Threat Management | Load Balancers
+p122: Topology of basic load balancing architecture | Scheduling | Source IP Affinity and Session Persistence | Web Application Firewalls
+p124: Secure Communications | Lesson Overview | Objectives Covered | Remote Access Architecture
+p125: Remote access VPN | Site-to-site VPN
+p126: Transport Layer Security Tunneling
+p127: Internet Protocol Security Tunneling
+p128: IPsec datagram using AH and ESP in transport mode | IPsec datagram using ESP in tunnel mode
+p129: Internet Key Exchange
+p130: Remote Desktop
+p131: SSH Client Authentication | SSH Commands
+p132: Out-of-Band Management and Jump Servers | Out-of-Band Management | Jump Servers
+p133: Securing management traffic using a jump server | Summary | Guidelines for Implementing Secure Enterprise Network Architecture
